@@ -1,0 +1,28 @@
+    <script src="jquery-loader.js"></script> 
+    <link rel="stylesheet" href="remodal.css">
+    <link rel="stylesheet" href="remodal-default-theme.css">
+    <script src="remodal.js"></script>
+    <script src="remodal_test.js"></script>
+    <style>
+      .remodal-overlay.without-animation.remodal-is-opening,
+      .remodal-overlay.without-animation.remodal-is-closing,
+      .remodal.without-animation.remodal-is-opening,
+      .remodal.without-animation.remodal-is-closing,
+      .remodal-bg.without-animation.remodal-is-opening,
+      .remodal-bg.without-animation.remodal-is-closing {
+        animation: none;
+      }
+    </style>
+
+
+ 
+ 
+  <a href="#" data-remodal-target="modal">Call</a>
+ 
+
+<div class="remodal" data-remodal-id="modal">
+  <a data-remodal-action="close" class="remodal-close"></a>
+
+  <a data-remodal-action="cancel" class="remodal-cancel" href="#">Cancel</a>
+  <a data-remodal-action="confirm" class="remodal-confirm" href="#">OK</a>
+</div>
